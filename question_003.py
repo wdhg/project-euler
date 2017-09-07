@@ -1,7 +1,7 @@
 import math
 
 def get_smallest_factor(x):
-    for i in range(2, int(math.sqrt(x))):
+    for i in range(2, int(math.sqrt(x)) + 1):
         if x % i == 0:
             return i
     return x
@@ -19,7 +19,7 @@ def get_prime_factors(x):
     temp_factor = x / prime_factors[-1]
     while product(prime_factors) < x:
         prime_factors.append(get_smallest_factor(temp_factor))
-        temp_factor = temp_factor / prime_factors[-1]
+        temp_factor = int(temp_factor / prime_factors[-1])
 
     return prime_factors
 
