@@ -1,11 +1,44 @@
 
-# Created by https://www.gitignore.io/api/python,haskell
+# Created by https://www.gitignore.io/api/python,haskell,c++
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 ### Haskell ###
 dist
 dist-*
 cabal-dev
-*.o
 *.hi
 *.chi
 *.chs.h
@@ -30,7 +63,6 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -126,4 +158,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# End of https://www.gitignore.io/api/python,haskell
+# End of https://www.gitignore.io/api/python,haskell,c++
