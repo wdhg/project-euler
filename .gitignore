@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/python,haskell,c++
+# Created by https://www.gitignore.io/api/python,haskell,c++,code
 
 ### C++ ###
 # Prerequisites
@@ -34,6 +34,13 @@
 *.exe
 *.out
 *.app
+
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+tsconfig.json
+jsconfig.json
 
 ### Haskell ###
 dist
@@ -158,4 +165,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# End of https://www.gitignore.io/api/python,haskell,c++
+# End of https://www.gitignore.io/api/python,haskell,c++,code
